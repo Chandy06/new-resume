@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandan Mandal - Sales Specialist</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --text-color: #333;
+            --light-bg: #f9f9f9;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--text-color);
+            line-height: 1.6;
+            background-color: var(--light-bg);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 60px 0 30px;
+        }
+
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .contact-item i {
+            font-size: 1.1rem;
+        }
+
+        main {
+            background-color: var(--white);
+            padding: 40px 0;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skill-tag {
+            background-color: var(--secondary-color);
+            color: var(--white);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 30px;
+        }
+
+        .job-header, .edu-header {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .job-title, .edu-degree {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: var(--secondary-color);
+        }
+
+        .company, .school {
+            font-weight: bold;
+        }
+
+        .period, .location {
+            color: #777;
+            font-style: italic;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .achievement {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .achievement:before {
+            content: "•";
+            color: var(--secondary-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: var(--white);
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .social-links {
+            margin-top: 15px;
+        }
+
+        .social-link {
+            color: var(--white);
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-link:hover {
+            color: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            .header-content h1 {
+                font-size: 2rem;
+            }
+            
+            .job-header, .edu-header {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>CHANDAN MANDAL</h1>
+                <p>Dynamic Sales Specialist with a proven track record in driving growth and fostering lasting client relationships. Skilled at crafting tailored solutions, and leading cross-functional collaborations to exceed targets.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Mumbai, Maharashtra 401107</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 7715900726</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>chandanmandal204@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/chandanm0604/" style="color: white; text-decoration: none;">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-tag">Account Management</div>
+                    <div class="skill-tag">Sales Strategy</div>
+                    <div class="skill-tag">Client Retention</div>
+                    <div class="skill-tag">Leadership and Mentorship</div>
+                    <div class="skill-tag">Customer Success Management</div>
+                    <div class="skill-tag">Customer Onboarding</div>
+                    <div class="skill-tag">Salesforce CRM</div>
+                </div>
+            </section>
+
+            <section id="experience">
+                <h2>Professional Experience</h2>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div class="job-title">SALES SPECIALIST</div>
+                        <div class="period">January 2022 to Current</div>
+                    </div>
+                    <div class="company">NEWFOLD DIGITAL</div>
+                    <ul class="achievements">
+                        <li class="achievement">Managed a portfolio of over 1,000 client accounts across specific geographic regions, maintaining a 30-35% retention rate through proactive engagement and risk assessment.</li>
+                        <li class="achievement">Consistently exceeded quarterly sales targets, achieving 123.75% in Q1, 110.50% in Q2, 116.30% in Q3, and 101.66% in Q4 and generated over $1,70,000 in revenue.</li>
+                        <li class="achievement">Served as a primary customer advocate, gathering feedback to influence product improvements, and documentation updates.</li>
+                        <li class="achievement">Mentored team members in technical product knowledge and customer engagement strategies, fostering a collaborative environment.</li>
+                        <li class="achievement">Demonstrated expertise in Salesforce CRM by creating custom reports, dashboards, and automation workflows to streamline customer lifecycle management, and improve team efficiency.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div class="job-title">SR. ADVISOR</div>
+                        <div class="period">May 2019 to January 2022</div>
+                    </div>
+                    <div class="company">CONCENTRIX DAKSH SERVICES, INDIA</div>
+                    <ul class="achievements">
+                        <li class="achievement">Guided IT managers and business leaders through complex technology selection and implementation processes, focusing on cloud computing and infrastructure solutions.</li>
+                        <li class="achievement">Coordinated cross-functional projects between technical teams and business stakeholders across various industries.</li>
+                        <li class="achievement">Managed end-to-end customer onboarding processes for IT and infrastructure solutions, ensuring smooth transition and adoption.</li>
+                        <li class="achievement">Developed expertise in cloud computing, networking, and IT infrastructure while managing PAN-India B2B accounts.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                
+                <div class="education-item">
+                    <div class="edu-header">
+                        <div class="edu-degree">Advertising & Marketing</div>
+                    </div>
+                    <div class="school">KES Shroff College of Commerce and Arts — Mumbai</div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="edu-header">
+                        <div class="edu-degree">Intermediate</div>
+                    </div>
+                    <div class="school">Bal Bharti College of Commerce — Mumbai</div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="edu-header">
+                        <div class="edu-degree">Matriculation</div>
+                    </div>
+                    <div class="school">The Saraswati Vidyalaya — Thane</div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Chandan Mandal. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/chandanm0604/" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:chandanmandal204@gmail.com" class="social-link"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
